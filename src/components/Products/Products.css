@@ -1,0 +1,19 @@
+
+.product{
+    position: relative;
+    border:1px solid orange;
+    border-radius:5px;
+    padding:7px;
+}
+.product img {
+    width:286px;
+    height:286px;
+}
+.btn{
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align: center;
+    background:bisque;
+    width:100%;
+}

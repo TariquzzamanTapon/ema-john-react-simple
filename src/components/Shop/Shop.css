@@ -1,4 +1,18 @@
 .shop__container{
     display:grid;
     grid-template-columns:4fr 1fr;
+    margin:50px;
+    gap:50px;
+}
+.products__section {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+.cart__section {
+    background:orange;
+    color:white;
+    padding:10px;
+    position:sticky;
+    max-height:500px;
 }
